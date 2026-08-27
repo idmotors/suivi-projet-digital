@@ -36,7 +36,7 @@ import {
 export const Route = createFileRoute('/')({ component: Home })
 
 const dateFormatter = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' })
-const moneyFormatter = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 })
+const moneyFormatter = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'MGA', maximumFractionDigits: 0 })
 
 function formatDate(value: string | null) {
   if (!value) return 'Non définie'
