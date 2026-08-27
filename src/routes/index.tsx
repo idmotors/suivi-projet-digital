@@ -236,7 +236,7 @@ function Home() {
           <div className="mini-progress"><span style={{ width: `${averageProgress}%` }} /></div>
           <p>Gardez chaque équipe alignée sur les prochaines échéances.</p>
         </div>
-        <div className="profile"><div className="avatar">CM</div><div><strong>Camille Martin</strong><span>Direction de projet</span></div><MoreHorizontal size={18} /></div>
+        <div className="profile"><div className="avatar">CM</div><div><strong>Glenn</strong><span>Direction de projet</span></div><MoreHorizontal size={18} /></div>
       </aside>
 
       <main className="main-content">
